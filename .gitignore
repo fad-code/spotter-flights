@@ -1,0 +1,21 @@
+# builds & deps
+node_modules/
+dist/
+dist-ssr/
+.vercel/
+.build/
+
+# env files (ignore all, keep example)
+.env
+.env.*
+server/.env
+!server/.env.example
+
+# IDE & OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.log
+*.local
+.env
