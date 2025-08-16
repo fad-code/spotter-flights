@@ -42,7 +42,6 @@ export default function SearchForm({ onSubmit }) {
         <button disabled={!from || !to} className="w-full md:w-auto px-6 py-3 rounded-xl bg-pink-600 hover:bg-pink-500 text-white font-semibold disabled:opacity-50">
           Search flights
         </button>
-        <p className="text-xs opacity-70 mt-2">Tip: pick from the dropdown so the app gets the required <code>skyId</code> and <code>entityId</code>.</p>
       </div>
     </form>
   );
